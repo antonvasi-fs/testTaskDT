@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins', sans-serif;
+  color: #fff;
+}
+
+.App-header {
+  background-color: #ff8c42;
+  max-height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.App_title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin: 1.5rem 0;
+  cursor: pointer;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  letter-spacing: 1px;
+}
+
+.App-header:hover {
+  background-color: #ff7733;
+  transition: 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .App-header {
+    padding: 10px;
+  }
+
+  .App-header h1 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+}
