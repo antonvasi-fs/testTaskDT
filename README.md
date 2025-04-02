@@ -35,7 +35,7 @@ A full-stack application for managing recipes built with React and Node.js.
 
 1. Clone the repository
 ```bash
-git clone [repository-url]
+git clone https://github.com/antonvasi-fs/testTaskDT
 ```
 
 2. Install dependencies for client
